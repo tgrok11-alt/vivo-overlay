@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.VivoOverlay" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#00FF88</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#00FF88</item>
+        <item name="android:windowBackground">#111111</item>
+    </style>
+</resources>

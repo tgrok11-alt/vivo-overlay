@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#111111">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="System Overlay"
+        android:textColor="#00FF88"
+        android:textSize="24sp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPU · RAM · Suhu Baterai"
+        android:textColor="#888888"
+        android:textSize="13sp"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="▶  Aktifkan Overlay"
+        android:textColor="#111111"
+        android:backgroundTint="#00FF88"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="■  Matikan Overlay"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#333333"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overlay bisa di-drag ke posisi manapun\nTap tombol − untuk menyembunyikan stats"
+        android:textColor="#555555"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
